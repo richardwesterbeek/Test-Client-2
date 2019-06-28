@@ -1,4 +1,5 @@
 ﻿using System;
+using Test_Shared;
 
 namespace Test_Client_2
 {
@@ -6,7 +7,7 @@ namespace Test_Client_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(new Class1().Test());
         }
     }
 }

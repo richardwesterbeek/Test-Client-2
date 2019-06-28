@@ -6,4 +6,14 @@
     <RootNamespace>Test_Client_2</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Test-Shared\**" />
+    <EmbeddedResource Remove="Test-Shared\**" />
+    <None Remove="Test-Shared\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Test-Shared\Test-Shared.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,3 @@
+[submodule "Test-Shared"]
+	path = Test-Shared
+	url = https://github.com/richardwesterbeek/Test-Shared.git
